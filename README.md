@@ -1,6 +1,8 @@
-# workshop-duckdb-python
+# Workshop Python e Duckdb + Docker e Streamlit
 
-## comandos necessários
+## Parte 1 - Deploy app streamlit
+
+### Configuração ambiente
 
 ```bash
 pyenv local
@@ -11,7 +13,18 @@ poetry add streamlit
 poetry run streamlit run app.py
 ```
 
-## criando arquivo Dockerfile
+### Criar arquivo app.py
+```python
+import streamlit as st
+
+def main():
+    st.write("Ola Jornada de dados")
+
+if __name__ == "__main__":
+    main()
+```
+
+### criando arquivo Dockerfile
 ```dockerfile
 FROM python:3.12
 RUN pip install poetry
