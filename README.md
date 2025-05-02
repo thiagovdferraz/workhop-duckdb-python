@@ -24,7 +24,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### criando arquivo Dockerfile
+### Criar Dockerfile
 ```dockerfile
 FROM python:3.12
 RUN pip install poetry
@@ -41,3 +41,7 @@ ENTRYPOINT ["poetry","run", "streamlit", "run", "app.py", "--server.port=8501", 
 * web services
 * logar com github e escolher projeto
 * deploy numa máquina free
+
+## Parte 2 - Duckdb
+
+Em breve.
