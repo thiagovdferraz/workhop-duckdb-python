@@ -1,0 +1,1 @@
+# workhop-duckdb-python
