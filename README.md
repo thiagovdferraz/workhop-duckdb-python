@@ -35,12 +35,20 @@ EXPOSE 8501
 ENTRYPOINT ["poetry","run", "streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 ```
 
-### Deploy
+### Deploy no Render
 
 * ir no Render.com
 * web services
 * logar com github e escolher projeto
 * deploy numa máquina free
+
+### Deploy no Digital Ocean
+
+* ir no cloud.digitalocean.com
+* create >> app platforms
+* logar com github e escolher projeto
+* deploy numa máquina free (se existir) ou custo benefício
+
 
 ## Parte 2 - Duckdb
 
