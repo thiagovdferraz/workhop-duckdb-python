@@ -1,4 +1,4 @@
-# workhop-duckdb-python
+# workshop-duckdb-python
 
 ## comandos necessários
 
