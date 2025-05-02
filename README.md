@@ -21,3 +21,10 @@ RUN poetry install --no-root --only main
 EXPOSE 8501
 ENTRYPOINT ["poetry","run", "streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 ```
+
+## Deploy
+
+* ir no Render.com
+* web services
+* logar com github e escolher projeto
+* deploy numa máquina free
