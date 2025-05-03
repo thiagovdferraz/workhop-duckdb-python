@@ -52,4 +52,4 @@ ENTRYPOINT ["poetry","run", "streamlit", "run", "app.py", "--server.port=8501", 
 
 ## Parte 2 - Duckdb
 
-Em breve.
+Continua [aqui](https://github.com/thiagovdferraz/duckdb-zero-ao-deploy).
